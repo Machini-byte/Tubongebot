@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #141e30, #243b55);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-container {
+  background: #0e1117;
+  width: 400px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 255, 174, 0.4);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: #00ffae;
+  color: #000;
+  text-align: center;
+  padding: 15px 0;
+}
+
+header h1 {
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+
+.chat-box {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  background: #10141f;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.bot-message, .user-message {
+  max-width: 80%;
+  padding: 10px 14px;
+  border-radius: 12px;
+  line-height: 1.5;
+}
+
+.bot-message {
+  background: #1f2937;
+  color: #fff;
+  align-self: flex-start;
+  box-shadow: 0 0 5px #00ffae33;
+}
+
+.user-message {
+  background: #00ffae;
+  color: #000;
+  align-self: flex-end;
+  box-shadow: 0 0 5px #00ffaeaa;
+}
+
+.input-area {
+  display: flex;
+  border-top: 1px solid #222;
+  background: #0b0b0b;
+  padding: 10px;
+}
+
+.input-area input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+  padding: 8px;
+}
+
+.input-area button {
+  background: #00ffae;
+  color: #000;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.input-area button:hover {
+  background: #00ffd5;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+  padding: 12px;
+  border-top: 1px solid #222;
+  background: #0b0b0b;
+}
+
+.dev-name {
+  color: #00ffae;
+  font-weight: 700;
+  text-shadow: 0 0 5px #00ffae, 0 0 10px #00ffae, 0 0 20px #00ffae;
+  animation: glowPulse 2s infinite ease-in-out;
+}
+
+@keyframes glowPulse {
+  0% { text-shadow: 0 0 5px #00ffae; }
+  50% { text-shadow: 0 0 15px #00ffd5; }
+  100% { text-shadow: 0 0 5px #00ffae; }
+}
