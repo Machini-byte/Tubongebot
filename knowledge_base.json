@@ -1,0 +1,160 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi", "hello", "hey", "habari", "niaje", "sasa", "vipi",
+        "whats up", "yo", "how are you", "rada", "radaa", "ukoje",
+        "inakuwaje", "yoh", "mambo", "msee", "aaje"
+      ],
+      "responses": [
+        "Niaje bro, mambo vipi leo?",
+        "Habari yako! Unakuwaje leo?",
+        "Yes Bossie, inakuwaje leo?",
+        "Sasa! Fiti kama kazi 😎",
+        "Mambo poa kabisa, uko aje?",
+        "Hey there! How’s life treating you?",
+        "Tuko rada bana! Unasema aje?"
+      ]
+    },
+    {
+      "tag": "abusive_language",
+      "patterns": [
+        "stupid", "idiot", "fool", "nonsense", "silly bot", "useless", "shenzi", "mjinga", "pumbavu", "ghasia", "malaya", "fuck you", "shit", "you are dumb", "unajua kitu gani", "nkt"
+      ],
+      "responses": [
+        "Hey, let's keep our chat respectful. I’m here to help, not argue. Let’s talk about something positive instead 😊",
+        "I get that you might be upset, but please let’s keep the conversation kind. I’d rather help you than argue.",
+        "I understand frustrations happen, but using insults doesn’t help either of us. How about we focus on fixing the issue?",
+        "I respect you, and I’d appreciate the same energy back. We can continue our chat respectfully what’s bothering you exactly?",
+        "That sounds harsh 😔 I’m not offended, but let’s keep things calm. Want to tell me what made you feel that way?"
+      ]
+    },
+    {
+      "tag": "feeling_good",
+      "patterns": [
+        "i am fine", "am good", "niko poa", "nimechill", "i feel great",
+        "not bad", "sijambo", "freshi", "niko fiti"
+      ],
+      "responses": [
+        "Nice to hear that! 😊",
+        "Safi sana, niko poa pia!",
+        "Freshi kabisa, tuendelee basi!",
+        "Eh uko rada poa kabisa!"
+      ]
+    },
+    {
+      "tag": "feeling_bad",
+      "patterns": [
+        "i am sad", "nimeboeka", "i feel down", "sijaskia poa", "i am not okay", "bored", "lonely", "depressed"
+      ],
+      "responses": [
+        "Pole sana, sometimes life hits hard. But better days are coming!",
+        "Usijali, mambo yatakuwa sawa. Chukua easy boss 💪",
+        "Hang in there bro, ata kwa darkness kuna light mbele 🌅",
+        "Aisee, usiache smile yako ipotee, mambo huchange tu 😌"
+      ]
+    },
+    {
+      "tag": "life_advice",
+      "patterns": [
+        "give me advice", "ushauri", "motivate me", "i feel lost",
+        "encourage me", "nimechoka", "life is hard", "help me"
+      ],
+      "responses": [
+        "Kaa rada champee, hata Rome haikujengwa siku moja 💯",
+        "Keep pushing ata kama life ni ngumu, usilale game!",
+        "Watu wengi hukata tamaa before mambo iwork, usiwe wao!",
+        "Dream big, alafu hustle smart si lazima ubleed to succeed 💡",
+		"Ukitaka kushop bila kuangalia price tag ni lazima ufanye kazi yako bila kuangalia masaa",
+        "Life ni kama football — sometimes unakaa bench, lakini game bado inaendelea ⚽"
+      ]
+    },
+    {
+      "tag": "kenyan_humor",
+      "patterns": [
+        "tell me something about kenya", "kenyan people", "nairobi life",
+        "funny kenya", "life in kenya", "kenyan jokes", "tell me a joke"
+      ],
+      "responses": [
+        "In Nairobi, ukiona mtu anakimbia, huulizi unaanza kukimbia pia! 🏃‍♂️",
+        "Matatu culture ni vibe! Utaingia moja ukitoka na concert experience 🎶",
+        "Kenya ni place watu wanapanga harusi na hashtag kabla hata proposal 😅",
+        "Wakenya ni creative! Hata blackout wakicheka bado wanafanya jokes 😂",
+        "Kenya — where 'five minutes' means one hour minimum ⏰",
+        "Nairobi ni mahali utaenda kwa salon, utoke na life advice, gossip, na hairstyle 😂"
+      ]
+    },
+    {
+      "tag": "random_jokes",
+      "patterns": ["joke", "funny", "story", "nichekeshe", "ambia joke", "tell joke"],
+      "responses": [
+        "Ati mtu anaenda gym mara moja anaanza kusema ‘I can’t eat that’ 😂",
+        "Kenya ni place mtu anaamka 9:58 na class inaanza 10:00 — bado anasema ‘I’m on my way’ 😅",
+        "Unajua life ni tricky ukiwa broke — hata nywele inakataa kukaa vizuri 😭",
+        "Siku ya kuoga maji huwa baridi kuliko siku zingine zote 😅",
+        "Wakenya wanapenda kusema ‘niko karibu’ wakati bado wako kwa bed 🛏️"
+      ]
+    },
+    {
+      "tag": "random_stories",
+      "patterns": ["story", "funny story", "ambia story", "narrate story", "hadithi", "tell me a story"],
+      "responses": [
+        "Aisee, kuna siku jamaa alienda kwa interview akaulizwa 'where do you see yourself in 5 years?' akasema 'siwezi ona mbali, niko na myopia' 😂",
+        "Hapo tao, kuna msee alijaribu kula mutura ya 20 bob akasema ‘hii nyama inatoka wapi?’ butcher akasema ‘uliza maswali mingi utasikia majibu mbaya’ 😭",
+        "Nilikumbuka siku moja nilienda saloon, nikasema nataka fade, msee akanipea haircut hadi nikaanza kufeel upepo kwenye mawazo yangu 😂",
+        "Kuna time tulikua na blackout na mtaa mzima tukaanza kuimba kama choir — kumbe generator ya jirani ilianza, tukanyamaza haraka 😅",
+        "Hapo mathree, kondaa aliambia msee 'toa fare ama ushuke' na jamaa akasema 'sina fare lakini niko na imani' 🤣"
+      ]
+    },
+    {
+      "tag": "yes_response",
+      "patterns": ["yes", "sawa", "ndio", "sure", "yeah", "of course", "ok", "ehe", "sindio"],
+      "responses": [
+        "Sawa basi boss, unataka nichekeshe kidogo ama nikupige story? 😄",
+        "Nice! Tuanzie na joke ama hadithi ndogo ya Nairobi life? 😎",
+        "Safi sana! Nikupige story ya kitambo ama joke mpya?",
+        "Ehe basi, hebu nikusimulie story moja ya kufurahisha 😁"
+      ]
+    },
+	
+    {
+      "tag": "ananymous_response",
+      "patterns": ["kali", "noma", "hatari"],
+      "responses": [
+        "kabisa hiyo ni noma, unataka nikuchekeshe kidogo ama nikupigie story? 😄",
+        "kali nanii! Tuanzie na joke ama hadithi ndogo ya Nairobi life? 😎",
+        "Hatari hii imeweza! Nikupige story ya kitambo ama joke mpya?"
+      ]
+    },
+    {
+      "tag": "no_response",
+      "patterns": ["no", "hapana", "not really", "nah", "sitaki", "nope"],
+      "responses": [
+        "Sawa basi, tuchill kidogo 😎",
+        "Hakuna pressure, niko hapa anytime bro!",
+        "Poapoa, haina noma baadaye😌"
+      ]
+    },
+    {
+      "tag": "gratitude",
+      "patterns": ["thanks", "thank you", "asante", "nashukuru", "cheers", "appreciate"],
+      "responses": [
+        "Karibu sana 😊",
+        "No stress, niko hapa kukusaidia!",
+        "It’s all love boss, anytime 😎"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "Sijapata hiyo vizuri 😅. Ungependa niseme joke au story kidogo?",
+        "Hmm, hiyo imenichanganya kidogo 😄. Ungependa nichekeshe au nikusimulie kitu?",
+        "Samahani, sijaelewa. Ungependa nikuambie story ya Kenya kidogo?",
+        "Eish, hiyo ni ngumu kidogo! Ungependa story au joke?",
+        "Sikupata vizuri bro, ungependa niseme kitu ya kufurahisha?"
+      ]
+    }
+  ]
+}
